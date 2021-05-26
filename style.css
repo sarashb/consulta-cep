@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #132c33;
+  color: #dadce7;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: all 1s;
+}
+
+#app {
+  background: #fff;
+  border-radius: 0.4rem;
+  padding: 1.5rem 0rem;
+  box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  justify-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+form input {
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #132c33;
+  width: 120px;
+  outline: none;
+  padding: 0;
+}
+
+form input::placeholder {
+  color: #969696;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5rem;
+  border: none;
+  width: max-content;
+  font-size: 1.3rem;
+  background: linear-gradient(to right, #126e82, #132c33);
+  font-weight: 100;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #f5f3f3;
+  background: #2e4a5c;
+  transition: 0.3s;
+}
+
+p {
+  color: #114e60;
+  font-family: 'Roboto', sans-serif;
+}
